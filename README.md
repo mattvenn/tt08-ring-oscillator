@@ -1,5 +1,8 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
+* [3D viewer](https://gds-viewer.tinytapeout.com/?model=https://raw.githubusercontent.com/mattvenn/tt08-ring-oscillator/main/gds/ring_osc.gds.gltf)
+* [STL files](./stl) created with [GDSiiSTL](https://github.com/mbalestrini/gdsiistl)
+
 # Tiny Tapeout Analog Project Template
 
 - [Read the documentation for project](docs/info.md)

@@ -1,0 +1,159 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1720449851
+<< nwell >>
+rect 1089 309 1435 311
+rect 1661 309 2628 310
+rect 2769 309 3031 310
+rect 738 206 3071 309
+rect 3197 206 3487 311
+rect 738 -20 3487 206
+<< viali >>
+rect 1643 153 1677 187
+rect 1362 22 1396 56
+rect 875 -56 909 -22
+rect 970 -50 1010 -10
+rect 2018 -57 2052 -23
+rect 2110 -54 2144 -20
+rect 2532 -53 2566 -19
+rect 2625 -50 2659 -16
+rect 3113 -50 3147 -16
+rect 3206 -51 3240 -17
+rect 1640 -110 1680 -70
+<< metal1 >>
+rect -3 541 197 741
+rect 2 404 195 541
+rect 2 328 3618 404
+rect 4 229 3618 328
+rect 1049 224 1407 229
+rect 1689 223 2215 229
+rect 0 118 200 200
+rect 1630 190 1688 194
+rect 1630 187 1690 190
+rect 1630 153 1643 187
+rect 1677 154 1886 187
+rect 1677 153 1689 154
+rect 1630 148 1689 153
+rect 1631 147 1689 148
+rect 0 78 1230 118
+rect 0 0 200 78
+rect 1190 58 1230 78
+rect 1350 58 1408 62
+rect 1190 56 1408 58
+rect 1190 22 1362 56
+rect 1396 22 1408 56
+rect 1190 18 1408 22
+rect 1350 16 1408 18
+rect 958 -10 1022 -4
+rect 863 -19 921 -16
+rect 630 -22 921 -19
+rect 630 -56 875 -22
+rect 909 -56 921 -22
+rect 958 -50 970 -10
+rect 1010 -20 1022 -10
+rect 1010 -50 1220 -20
+rect 958 -56 1220 -50
+rect 1853 -22 1886 154
+rect 2613 -12 2671 -10
+rect 3101 -12 3159 -10
+rect 2098 -17 2156 -14
+rect 2520 -17 2578 -13
+rect 2006 -22 2064 -17
+rect 1853 -23 2064 -22
+rect 1853 -55 2018 -23
+rect 630 -58 921 -56
+rect 630 -65 671 -58
+rect 863 -62 921 -58
+rect 960 -60 1220 -56
+rect 632 -111 671 -65
+rect 1180 -80 1220 -60
+rect 2006 -57 2018 -55
+rect 2052 -57 2064 -23
+rect 2006 -63 2064 -57
+rect 2098 -19 2578 -17
+rect 2098 -20 2532 -19
+rect 2098 -54 2110 -20
+rect 2144 -53 2532 -20
+rect 2566 -53 2578 -19
+rect 2144 -54 2578 -53
+rect 2098 -56 2578 -54
+rect 2613 -16 3159 -12
+rect 2613 -50 2625 -16
+rect 2659 -50 3113 -16
+rect 3147 -50 3159 -16
+rect 2613 -56 3159 -50
+rect 3194 -15 3252 -11
+rect 3194 -17 3641 -15
+rect 3194 -51 3206 -17
+rect 3240 -51 3641 -17
+rect 3194 -54 3641 -51
+rect 2098 -60 2156 -56
+rect 2520 -59 2578 -56
+rect 2622 -58 3152 -56
+rect 3194 -57 3252 -54
+rect 1628 -70 1692 -64
+rect 1628 -80 1640 -70
+rect 1180 -110 1640 -80
+rect 1680 -110 1692 -70
+rect 619 -163 625 -111
+rect 677 -163 683 -111
+rect 1180 -116 1692 -110
+rect 1180 -120 1680 -116
+rect 0 -226 200 -200
+rect 0 -227 392 -226
+rect 0 -379 3334 -227
+rect 0 -380 254 -379
+rect 0 -400 200 -380
+rect 624 -496 676 -490
+rect 807 -503 846 -502
+rect 3602 -503 3641 -54
+rect 676 -542 3641 -503
+rect 624 -554 676 -548
+rect 0 -692 200 -600
+rect 807 -692 846 -542
+rect 0 -731 846 -692
+rect 0 -800 200 -731
+<< via1 >>
+rect 625 -163 677 -111
+rect 624 -548 676 -496
+<< metal2 >>
+rect 625 -111 677 -105
+rect 625 -169 677 -163
+rect 631 -496 670 -169
+rect 618 -548 624 -496
+rect 676 -548 682 -496
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1688980957
+transform 1 0 1779 0 1 -273
+box -38 -48 130 592
+use sky130_fd_sc_hd__inv_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1720449650
+transform 1 0 798 0 1 -272
+box -38 -48 314 592
+use sky130_fd_sc_hd__einvn_0  x2 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1704896540
+transform 1 0 1338 0 1 -272
+box -38 -48 406 592
+use sky130_fd_sc_hd__inv_1  x3
+timestamp 1720449650
+transform 1 0 1938 0 1 -272
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x4
+timestamp 1720449650
+transform 1 0 2458 0 1 -272
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x5
+timestamp 1720449650
+transform 1 0 3038 0 1 -272
+box -38 -48 314 592
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 not_enable
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 VGND
+port 1 nsew
+flabel metal1 -3 541 197 741 0 FreeSans 256 0 0 0 VPWR
+port 2 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 800 0 0 0 out
+port 4 nsew
+<< end >>
