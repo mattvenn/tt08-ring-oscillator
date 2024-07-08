@@ -5,6 +5,27 @@ K {}
 V {}
 S {}
 E {}
+B 2 720 -280 1520 120 {flags=graph
+y1=-0.17
+y2=2
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1e-15
+x2=2e-09
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node=out
+color=4
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
 N 540 0 570 0 {
 lab=out}
 N 570 0 570 110 {
@@ -48,9 +69,9 @@ value="
 
 "
 spice_ignore=false}
-C {devices/launcher.sym} 490 -140 0 0 {name=h5
+C {devices/launcher.sym} 490 -150 0 0 {name=h5
 descr="load waves" 
-tclcommand="xschem raw_read $netlist_dir/tb_dac.raw tran"
+tclcommand="xschem raw_read $netlist_dir/ring_osc.raw tran"
 }
 C {devices/code.sym} 170 -240 0 0 {name=SIMULATION
 only_toplevel=true
