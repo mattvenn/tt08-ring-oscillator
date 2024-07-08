@@ -4,6 +4,7 @@
 * [STL files](./stl) created with [GDSiiSTL](https://github.com/mbalestrini/gdsiistl)
 * [Schematic](https://xschem-viewer.com/?file=https%3A%2F%2Fgithub.com%2Fmattvenn%2Ftt08-ring-oscillator%2Fblob%2Fmain%2Fxschem%2Fring_osc.sch)
 * [Simulation output](./xschem/simulation/ring_osc.raw)
+* [Sky130 PDK stackup dimensions](https://www.zerotoasiccourse.com/terminology/pdk/)
 
 ![transient sim](docs/ring_osc_transient.png)
 
